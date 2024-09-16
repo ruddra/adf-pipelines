@@ -1,0 +1,9 @@
+{
+	"name": "dummy-factory-01",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c8b68318-4670-4cfe-8400-3456f34b83ef",
+		"tenantId": "cc7df247-60ce-4a0f-9d75-704cf60efc64"
+	}
+}
