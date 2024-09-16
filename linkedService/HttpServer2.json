@@ -1,0 +1,12 @@
+{
+	"name": "HttpServer2",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "blob:https://github.com/b4ea28c9-8f18-47fd-a02b-c4d973e384cf",
+			"enableServerCertificateValidation": false,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
