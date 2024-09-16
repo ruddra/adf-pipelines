@@ -16,13 +16,13 @@
 				"userProperties": [],
 				"typeProperties": {
 					"source": {
-						"type": "ParquetSource",
+						"type": "DelimitedTextSource",
 						"storeSettings": {
 							"type": "HttpReadSettings",
 							"requestMethod": "GET"
 						},
 						"formatSettings": {
-							"type": "ParquetReadSettings"
+							"type": "DelimitedTextReadSettings"
 						}
 					},
 					"sink": {
@@ -46,7 +46,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "Parquet3",
+						"referenceName": "DelimitedText1",
 						"type": "DatasetReference"
 					}
 				],
