@@ -1,0 +1,46 @@
+{
+	"name": "CosmosDbNoSqlContainer1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "CosmosDbNoSql1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "CosmosDbSqlApiCollection",
+		"schema": {
+			"type": "object",
+			"properties": {
+				"partitionKey": {
+					"type": "string"
+				},
+				"BATCH_ID": {
+					"type": "integer"
+				},
+				"title": {
+					"type": "string"
+				},
+				"artist": {
+					"type": "string"
+				},
+				"genre": {
+					"type": "string"
+				},
+				"week": {
+					"type": "string"
+				},
+				"highest_rating": {
+					"type": "string"
+				},
+				"year": {
+					"type": "string"
+				},
+				"youtube": {
+					"type": "string"
+				}
+			}
+		},
+		"typeProperties": {
+			"collectionName": "Items"
+		}
+	}
+}
