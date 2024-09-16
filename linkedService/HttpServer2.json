@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "HttpServer",
 		"typeProperties": {
-			"url": "https://github.com/b4ea28c9-8f18-47fd-a02b-c4d973e384cf",
+			"url": "https://github.com/Teradata/kylo/raw/refs/heads/master/samples/sample-data/parquet/userdata1.parquet",
 			"enableServerCertificateValidation": false,
 			"authenticationType": "Anonymous"
 		}
