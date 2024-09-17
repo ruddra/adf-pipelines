@@ -91,7 +91,7 @@
 				"     matchType:'exact',",
 				"     ignoreSpaces: false,",
 				"     broadcast: 'auto')~> join1",
-				"join1 derive(even_ids = equals(mod(source2@id, 2), 0)) ~> derivedColumn1",
+				"join1 derive(even_ids = equals(mod(source2@id, 2), $odd_or_even)) ~> derivedColumn1",
 				"derivedColumn1 sink(allowSchemaDrift: true,",
 				"     validateSchema: false,",
 				"     format: 'parquet',",
