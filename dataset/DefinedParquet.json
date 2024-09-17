@@ -1,0 +1,19 @@
+{
+	"name": "DefinedParquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SourceStorageLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "defined"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}

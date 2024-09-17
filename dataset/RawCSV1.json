@@ -1,0 +1,48 @@
+{
+	"name": "RawCSV1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SourceStorageLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "6baf770a-3367-4eae-8039-00e9f944f77a",
+				"container": "raw"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "datasetName",
+				"type": "String"
+			},
+			{
+				"name": "about",
+				"type": "String"
+			},
+			{
+				"name": "link",
+				"type": "String"
+			},
+			{
+				"name": "categoryName",
+				"type": "String"
+			},
+			{
+				"name": "cloud",
+				"type": "String"
+			},
+			{
+				"name": "vintage",
+				"type": "String"
+			}
+		]
+	}
+}
