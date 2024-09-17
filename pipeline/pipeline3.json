@@ -29,7 +29,14 @@
 			{
 				"name": "Azure Function1",
 				"type": "AzureFunctionActivity",
-				"dependsOn": [],
+				"dependsOn": [
+					{
+						"activity": "Data flow1",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
 				"policy": {
 					"timeout": "0.12:00:00",
 					"retry": 0,
@@ -38,6 +45,10 @@
 					"secureInput": false
 				},
 				"userProperties": [],
+				"typeProperties": {
+					"functionName": "http_trigger_001",
+					"method": "GET"
+				},
 				"linkedServiceName": {
 					"referenceName": "AzureFunction1",
 					"type": "LinkedServiceReference"
