@@ -77,12 +77,12 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"functionName": "http_trigger1",
+					"functionName": "http_trigger_001",
 					"body": {
 						"value": "@activity('Copy data1').output",
 						"type": "Expression"
 					},
-					"method": "POST"
+					"method": "GET"
 				},
 				"linkedServiceName": {
 					"referenceName": "AzureFunction1",
