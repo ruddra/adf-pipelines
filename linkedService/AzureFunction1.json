@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "AzureFunction",
 		"typeProperties": {
-			"functionAppUrl": "https://dummyfunc2.azurewebsites.net",
+			"functionAppUrl": "https://dummyfunc01.azurewebsites.net",
 			"authentication": "Anonymous"
 		}
 	}
