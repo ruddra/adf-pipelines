@@ -1,0 +1,9 @@
+{
+	"name": "adf-engd-westeu-000",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c05bc70f-40f8-42d7-995f-bcd3d51a7c22",
+		"tenantId": "cc7df247-60ce-4a0f-9d75-704cf60efc64"
+	}
+}
