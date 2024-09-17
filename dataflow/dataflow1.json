@@ -43,6 +43,9 @@
 				}
 			],
 			"scriptLines": [
+				"parameters{",
+				"     odd_or_even as integer (0)",
+				"}",
 				"source(output(",
 				"          registration_dttm as timestamp,",
 				"          id as integer,",
