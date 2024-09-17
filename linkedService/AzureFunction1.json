@@ -5,9 +5,9 @@
 		"annotations": [],
 		"type": "AzureFunction",
 		"typeProperties": {
-			"functionAppUrl": "https://dummyfunc01.azurewebsites.net",
+			"functionAppUrl": "https://dummyfunc2.azurewebsites.net",
 			"authentication": "Anonymous",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDc0NTRBOTBFLTI3OUEtNDhCMi05Q0ZGLUFBMTY5OUQzOUNEMV81YzdjNjIxMy1jYjk1LTRlMmYtODFiMy1mYmJkZmNmYzI0YjMiDQp9"
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDc0NTRBOTBFLTI3OUEtNDhCMi05Q0ZGLUFBMTY5OUQzOUNEMV84ZDJkMWJjNy00NWYwLTRkYzktYjM5ZC1kNmU1NWI4ZjdhMzciDQp9"
 		}
 	}
 }
